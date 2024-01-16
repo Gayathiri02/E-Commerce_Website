@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- ADDING FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- LINKING MY STYLE.CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>SHOPIFY</title>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar">
+        <h1>SHOPIFY <i class="fa-brands fa-shopify"></i></h1>
+        <div class="navbar-links">
+            <p><a class="navbar-home" href="index.html">HOME</a></p>
+            <p><a class="navbar-collections" href="collections.html">COLLECTIONS</a></p>
+            <p><a class="navbar-contact" href="contact.html">CONTACT</a></p>
+        </div>
+
+        <div class="navbar-toggle" onclick="show_sideNavBar()">
+            <!-- FONT AWESOME BARS CLASS LINK FOR TOGGLE BUTTON -->
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- SIDE NAVBAR -->
+    <div class="side-navbar">
+        <!-- FONT AWESOME BUTTON FOR CLOSE BAR IN MOBILE VIEW -->
+        <p><i class="fa-solid fa-circle-xmark" onclick="close_sideNavBar()"></i></p>
+        <p><a class="side-navbar-home" href="index.html">HOME</a></p>
+        <p><a class="side-navbar-collections" href="collections.html">COLLECTIONS</a></p>
+        <p><a class="side-navbar-contact" href="contact.html">CONTACT</a></p>
+    </div>
+
+
+
+    <div class="contact-section">
+        <h3>Contact Us <i class="fa-solid fa-square-phone-flip"></i></h3>
+        <form>
+            <p>Name:</p>
+            <input type="text">
+            <p>Email:</p>
+            <input type="email">
+            <p>Message:</p>
+            <textarea></textarea>
+
+        </form>
+    </div>
+
+
+    <!-- NEWS LETTER SECTION -->
+    <div class="news-letter-container">
+        <h2>Join our News Letter</h2>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more..</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div>
+            <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="footer-section">
+        <h2>Shopify <i class="fa-brands fa-shopify"></i></h2>
+        <p>The Standard chunk of fashions, traditions, all you need is in Shopify</p>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <p>
+            <i class="fa-solid fa-at"></i>
+            2024 Shopify.com
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
